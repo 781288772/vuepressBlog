@@ -33,7 +33,7 @@ module.exports = [
         },
         {
           title: '通过百度搜索本站的',
-          frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
+          frontUrl: 'https://www.baidu.com/s?wd=site%781288772.github.io%20',
         },
       ],
     },
@@ -86,8 +86,8 @@ module.exports = [
         clientID: '2e97c80f1ae0dd911fc8',
         clientSecret: '8cb8e3271f56cac4f069585051731e23a62022ac',
         repo: 'blog-gitalk-comment', // GitHub 仓库
-        owner: 'noah', // GitHub仓库所有者
-        admin: ['noah'], // 对仓库有写权限的人
+        owner: '781288772', // GitHub仓库所有者
+        admin: ['781288772'], // 对仓库有写权限的人
         // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
