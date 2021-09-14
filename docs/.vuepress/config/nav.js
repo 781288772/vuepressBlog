@@ -37,6 +37,11 @@ module.exports = [
             text: 'JS设计模式总结',
             link: '/pages/4643cd/',
           },
+          {
+            text:'uniapp',
+            link:'/note/uniapp/'
+          }
+
         ],
       },
     ],
