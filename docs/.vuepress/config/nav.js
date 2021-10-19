@@ -30,16 +30,20 @@ module.exports = [
             link: '/note/git/',
           },
           {
-            text: 'TypeScript',
+            text: '《TypeScript》',
             link: '/pages/51afd6/',
           },
           {
-            text: 'JS设计模式总结',
+            text: '《JS设计模式总结》',
             link: '/pages/4643cd/',
           },
           {
-            text:'uniapp',
+            text:'《uniapp》',
             link:'/note/uniapp/'
+          },
+          {
+            text:'《vue3.0》',
+                link:'/note/uniapp/'
           }
 
         ],
