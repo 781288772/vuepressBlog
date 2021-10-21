@@ -42,8 +42,8 @@ module.exports = [
             link:'/note/uniapp/'
           },
           {
-            text:'《vue3.0》',
-                link:'/note/vue3.0/'
+            text:'《vue3》',
+            link:'/note/vue3/'
           }
 
         ],
