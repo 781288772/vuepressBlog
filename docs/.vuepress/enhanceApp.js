@@ -6,4 +6,7 @@ export default ({
   siteData // 站点元数据
 }) => {
   // window.Vue = vue // 使页面中可以使用Vue构造函数 （使页面中的vue demo生效）
+
+
+
 }
