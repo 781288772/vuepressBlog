@@ -11,3 +11,5 @@ const setRem = () => {
   document.querySelector('html').style.fontSize =  rem + 'px';
 };
 ```
+
+查了一番资料才得知，rem方案是viewport的过渡方案，将设计稿除以100，等分为7.5份来实现移动端不同屏幕尺寸适配的原理，与viewport中vw单位的定义，设计思想与想要解决的问题，是相同的。当时浏览器对viewport的支持性不好，而现在已经是2022年了，可以看到，各大浏览器厂商，对viewport的支持率已经很高了。可以放心使用。
