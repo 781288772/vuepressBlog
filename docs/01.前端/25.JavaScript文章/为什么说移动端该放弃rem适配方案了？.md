@@ -20,3 +20,13 @@ const setRem = () => {
 - 语义化更好, rem从本义上来说，是一种字体单位，不是用来做布局和各种屏幕尺寸大小适配的，如上面的示例，用rem做适配单位，计算根字体的时候，计算公式中的100这个参数让人感觉很费解，viewport词更达意。
 
 - 可以直接在代码中书写px,借助postcss-px-to-viewport插件转换成vw单位，完美适配移动端各种屏幕尺寸。不用像之前那样，一是要在蓝湖上设置根字体基准尺寸，将设计稿标注的px单位转换成rem单位，然后摘抄到代码中。二是需要用js计算设置根字体大小。前端开发天然喜欢px单位，像rem,em,vw，vh这些单位，一般都不是UI设计稿标注的尺寸，开发时需要转换成本。不如直接在代码中写px直观高效。
+
+3. postcss-px-to-viewport方案正确的使用姿势
+
+看到网上的教程都是说要在项目中安装postcss-px-to-viewport工具包，然而安装和配置完postcss-px-to-viewport之后，运行项目，发现命令行出现如下报错：
+
+```
+postcss-px-to-viewport: postcss.plugin was deprecated. Migration guide: https://evilmartians.com/chronicles/postcss-8-plugin-migration
+```
+
+经过一番尝试之后，最终找到了正确的使用方法。
