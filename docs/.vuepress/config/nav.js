@@ -44,6 +44,10 @@ module.exports = [
           {
             text:'《vue3》',
             link:'/note/vue3/'
+          },
+          {
+            text:'《nestjs》',
+            link:'/note/nestjs/'
           }
 
         ],
