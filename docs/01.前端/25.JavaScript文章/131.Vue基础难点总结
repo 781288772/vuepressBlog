@@ -1,13 +1,14 @@
 ---
-title: Vue 基础难点总结
-date: 2022-06-19 21:23:55
-permalink: /pages/9a8e09/
+title: Vue基础难点总结
+date: 2022-06-30 08:49:40
+permalink: /pages/87b6c6/
 categories:
   - 前端
   - JavaScript文章
 tags:
   - 
 ---
+
 # Vue 基础难点总结
 
 vue指令-v-model修饰符
@@ -145,10 +146,10 @@ props: {
 组件进阶-keep-alive组件-指定缓存
 
 语法
-
+```
 1.`include="组件名1,组件名2..."`
 2.`:include="['组件名1'， '组件名2']"`
-
+```
 
 ```
 <keep-alive include="name1,name2">
